@@ -1,0 +1,13 @@
+@media all and (max-width: 1200px){
+
+}
+
+@media all and (max-width: 600px){
+    input.resp{
+        margin-bottom: 15px;
+        
+    }
+    
+    
+}
+   

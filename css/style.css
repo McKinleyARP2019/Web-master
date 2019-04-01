@@ -1,0 +1,271 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+#main-nav a {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+#main-nav a:hover {
+    color: #0ed8d6;
+    transition: all 0.4s;
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+
+}
+
+#background {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../img/header/pictures_on_the_wall.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 80px;
+
+}
+
+.btn-primary {
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    background-color: #0ed8d6;
+    margin-top: 50px;
+}
+
+.scrolled {
+    background-color: rgba(14, 216, 214, 0.6);
+}
+
+section {
+    padding: 60px 0;
+}
+
+#me {
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+
+}
+
+.inside {
+    margin-top: 30px;
+    color: #777777;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: #333333;
+    font-size: 25px;
+    font-weight: 500px;
+    font-family: 'Montserrat', serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.col-sm-4 {
+    margin-top: 30px;
+    color: #777777;
+    font-weight: 300;
+
+}
+
+#my-service .fa {
+    font-size: 60px;
+    border-radius: 50%;
+    border: 10px solid #0ed8d6;
+    background-color: #0ed8d6;
+    color: white;
+    transition: all 0.3s ease-in-out 0.4s;
+}
+
+#my-service .fa:hover {
+    cursor: default;
+    transform: rotate(360deg);
+
+}
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+.pic{
+    margin-bottom: 15px;
+    background-color:white;
+}
+.clear {
+    overflow: hidden;
+}
+
+.photo {
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    font-size: initial;
+    transition: all 0.4s;
+    
+}
+
+.photo.one {
+    background-image:url(portfolio/box_of_cookies.jpg);
+}
+
+.photo.two {
+    background-image: url(portfolio/chaotic_paint.jpg);
+}
+
+.photo.three {
+    background-image: url(portfolio/chestnut_on_bracket.jpg);
+}
+
+.photo.four {
+    background-image: url(portfolio/child_with_blue_paint.jpg);
+}
+
+.photo.five {
+    background-image: url(portfolio/house_with_blue_doors.jpg);
+}
+
+.photo.six {
+    background-image: url(portfolio/typing_on_laptop.jpg);
+}
+
+.photo:hover {
+    transform: scale(1.5);
+}
+
+.portfolio-mask {
+    /*    width: 100%;*/
+    height: 100%;
+    background-color: rgba(14, 216, 214, 0.5);
+    opacity: 0;
+    /*    position: absolute;*/
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portfolio-mask:hover {
+    opacity: 1;
+}
+
+.fa.fa-plus {
+    color: white;
+    font-size: 50px;
+
+}
+
+.social-icons a {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border: 1px solid black;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: all 0.4s;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 60px;
+
+}
+
+.social-icons a:hover {
+    color: #0ed8d6;
+}
+
+#me.end-title {
+    color: white;
+}
+
+#section-contact .inside {
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#section-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/img/footer/world-map.jpg);
+/*    position: relative;*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#section-contact .size-one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+}
+
+#section-contact .size-two {
+    height: 200px;
+    margin-bottom: 0;
+
+}
+
+.form-group {
+    margin: 0;
+}
+
+textarea {
+    margin: 0;
+    height: 100%;
+}
+
+#foot-end {
+    line-height: 100px;
+}
+
+#foot-end .links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 300;
+
+    margin-left: 20px;
+}
